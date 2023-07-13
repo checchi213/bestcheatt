@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{cc01cadc-391c-4907-b7bb-4296cccb9457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{5f392fa9-1698-4200-a62c-2ab8633b0371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cheat">
+      <UniqueIdentifier>{03a8b386-acf1-4ca9-82c5-2098da2d41c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cheat_main">
+      <UniqueIdentifier>{67caad19-5894-490a-9d69-dbb22224f72b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\game_sdk.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\safe_mem.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk_new\math.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vars\vars.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\NewUtils.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGui.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\EntityZaLoop.h">
+      <Filter>src\cheat_main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\AimFuncs.h">
+      <Filter>src\cheat_main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\EspFuncs.h">
+      <Filter>src\cheat_main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\MiscFuncs.h">
+      <Filter>src\cheat_main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src\cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
